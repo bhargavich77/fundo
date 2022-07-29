@@ -1,0 +1,104 @@
+.topbar1{
+    margin:30px;
+}
+.container{
+    width:60vw;
+    height:100vh;
+    border:1px solid grey;
+    border-radius:10px;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section1 .google-logo{
+   text-align: start;
+   width: 100%;
+   
+   margin-top: 10px;
+   
+}
+.section1{
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left:35px;
+}
+.account h3{
+    width:100%;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    
+    margin-top:-8px;
+
+}
+.Person_Name ,.password-confirm{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+
+}
+.username{
+    width:100%;
+
+}
+.username h5{
+    font-size:13px;
+    font-weight: 400;
+    color:grey;
+    text-align: left;
+    margin-top:6px;  
+}
+
+.current{
+    text-align: start;
+    margin-top:-30px;
+    margin-bottom: 16px;
+}
+.use-8-or-more-characters{
+    font-size:15px;
+    font-weight: 400;
+    color:grey;
+    text-align: start;
+    margin-top: -40px;
+}
+.pswd-box{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    text-align: left;
+   
+    
+}
+.footer{
+    width:100%;
+    color:rgba(75, 75, 231, 0.735);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section2{
+    width:35%;
+    height:90%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-right:30px;
+}
+.text h4{
+    width:100%;
+    font-size:16px;
+    font-weight:300;
+    text-align: center;
+}
+.image_container img{
+    width:100%;
+    text-align: center;
+}
